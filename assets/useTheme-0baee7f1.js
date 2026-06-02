@@ -1,0 +1,1 @@
+import{m as e,b1 as t}from"./index-889fc8f1.js";const a=[{slug:"hello-world",title:"第一篇博客文章",date:"2026-05-29",description:"这是我的第一篇静态博客文章",tags:["博客","示例"]}],l=e(localStorage.getItem("blog-theme")||"dark");function o(){return{theme:l,toggleTheme:()=>{l.value="dark"===l.value?"light":"dark"}}}t((()=>{localStorage.setItem("blog-theme",l.value)}));export{a as p,o as u};
