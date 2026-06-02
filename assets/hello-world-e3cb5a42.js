@@ -1,0 +1,1 @@
+const n='# 欢迎来到我的博客\n\n这是我的第一篇博客文章，由 Markdown 写成，`pnpm build` 打包成静态页面。\n\n## 功能\n\n- 支持 Markdown 语法\n- 自动生成页面\n- 部署在 GitHub Pages\n\n## 代码块\n\n```javascript\nconsole.log("Hello, Blog!");\n```\n\n> 博客和主站一起部署，不用再管 VPS 了。\n';export{n as default};
