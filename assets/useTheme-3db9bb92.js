@@ -1,0 +1,1 @@
+import{m as e,b1 as t}from"./index-3d3d7159.js";const a=e(localStorage.getItem("blog-theme")||"dark");function o(){return{theme:a,toggleTheme:()=>{a.value="dark"===a.value?"light":"dark"}}}t((()=>{localStorage.setItem("blog-theme",a.value)}));export{o as u};
